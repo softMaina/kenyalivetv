@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "620798865440",
+    "firebase_url": "https://hackrush-2b296.firebaseio.com",
+    "project_id": "hackrush-2b296",
+    "storage_bucket": "hackrush-2b296.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620798865440:android:77ce3aa4764edcc42b8c45",
+        "android_client_info": {
+          "package_name": "com.tvlive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "620798865440-ifki5bk9gptqjlrch974h4jdk4k3tj3g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tvlive",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "620798865440-bnplijmpebra004thm3mlcoj1mpa5kka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMsKDIqts9gWlkm3Stin6Yt3b9f5c0s48"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "620798865440-bnplijmpebra004thm3mlcoj1mpa5kka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
