@@ -7,7 +7,7 @@ export default function youtube({ url }) {
     return (
         <YouTube
             apiKey="AIzaSyD_a2HlR9UW1hYskAIdUuaWcsUhJbNjkiY"
-            videoId="MlkHI4SDYAs" // The YouTube video ID
+            videoId={url} // The YouTube video ID
             play // control playback of video with true/false
             fullscreen // control whether the video should play in fullscreen or inline
             onReady={e => this.setState({ isReady: true })}
