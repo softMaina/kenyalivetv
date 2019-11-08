@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import Youtube from './components/youtube';
 import Video from './components/videos';
 import axios from 'axios';
+import {View, Text} from 'react-native';
+import YoutubePlayer from 'react-native-yt-player'
 
 export default class tv extends Component {
     constructor(props) {
@@ -33,7 +35,7 @@ export default class tv extends Component {
                     console.log(videoid)
                     this.setState({
                         type: 1,
-                        url: videoid
+                        url: "jL8uDJJBjMA"
                     })
                 }
             })
@@ -49,9 +51,30 @@ export default class tv extends Component {
 
     render() {
         if (this.state.type === 1) {
-            return <Youtube url={this.state.url} />
+            // return <Youtube url={this.state.url} />
+            return  <YoutubePlayer
+            loop
+            topBar={TopBar}
+            videoId="Z1LmpiIGYNs"
+            autoPlay
+            onFullScreen={this.onFullScreen}
+            onStart={() => console.log("onStart")}
+            onEnd={() => alert("on End")}
+          />
         } else {
             return <Video url={this.state.url} />
         }
     }
 }
+
+const TopBar = ({ play, fullScreen }) => (
+    <View
+      style={{
+        alignSelf: "center",
+        position: "absolute",
+        top: 0
+      }}
+    >
+      <Text style={{ color: "#FFF" }}> Custom Top bar</Text>
+    </View>
+);

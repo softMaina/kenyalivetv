@@ -10,6 +10,7 @@
     "lint": "eslint ."
   },
   "dependencies": {
+    "@react-native-community/slider": "^2.0.3",
     "@react-native-firebase/admob": "^6.0.3",
     "@react-native-firebase/app": "^6.0.3",
     "@react-native-firebase/database": "^6.0.3",
@@ -23,8 +24,9 @@
     "react-native-screens": "^2.0.0-alpha.6",
     "react-native-vector-icons": "^6.6.0",
     "react-native-video": "^5.0.2",
-    "react-native-webview": "^7.4.3",
+    "react-native-webview": "5.12.1",
     "react-native-youtube": "^2.0.0",
+    "react-native-yt-player": "^1.0.6",
     "react-navigation": "^4.0.10",
     "react-navigation-drawer": "^2.3.2",
     "react-navigation-stack": "^1.10.3"
